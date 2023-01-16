@@ -12,6 +12,9 @@ header{
     background-image: url(chiranjivi.jpg);
     
 }
+a:hover{
+    background-color:rgb(27, 146, 197);
+}
 nav{
     width: fit-content;
     height: fit-content;
