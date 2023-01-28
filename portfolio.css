@@ -27,6 +27,7 @@ color: #fff;
 }
 .navlogo{
   font-size: 32px;
+  float:left;
 }
 .navmenu{
   display: flex;
