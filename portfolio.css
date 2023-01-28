@@ -1,3 +1,122 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  font-size: 24px;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+li {
+  list-style: none;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color:black;
+  color:white;
+  height: 110px;
+}
+.nav-links a {
+color: #fff;
+}
+.navlogo{
+  font-size: 32px;
+}
+.navmenu{
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+}
+.navmenu li:hover {
+  background-color: #4c9e9e;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+.navmenu li {
+  padding: 5px 14px;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+.hamburger {
+  display: none;
+  font-size: 25px;
+  user-select: none;
+}
+@media (max-width: 965px) {
+  .navmenu {
+    display: none;
+    position: absolute;
+    background-color: rgb(8, 148, 235);
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 16px 0;
+    
+  }
+  .active{
+    color:black
+  }
+  .navmenu li:hover {
+    display: inline-block;
+    background-color: #4c9e9e;
+    transition: 0.3s ease;
+  }
+  .navmenu li+li {
+    margin-top: 12px;
+    
+  }
+  input[type=checkbox]:checked~.navmenu {
+    display: block;
+  }
+  .hamburger {
+    display: block;
+  }
+}
+.hii{
+  display: block;
+  margin:0;
+  text-align: center;
+  /* background-image: url(chiranjivi.jpg); */
+  /* width:auto; */
+  background-color: rgba(204, 209, 209, 0.625);
+  padding: 15px;
+  height:300px;
+  font-size:25px;
+  font-family: cursive;
+}
+.mycollege{
+  display: block;
+  margin: 0;
+  text-align: center;
+  /* border-style:solid; */
+  background-color: rgb(118, 181, 219);
+  height: 150px;
+  padding: 30px;
+  border-style:solid;
+}
+.mycollege1{
+  display: block;
+  margin: 0;
+  text-align: center;
+
+  background-color: rgb(204, 209, 209, 0.625);
+  
+  padding:20px;
+}
+
+
+
+
+
+
+
 header{
     width: 100%;
     height: auto;
