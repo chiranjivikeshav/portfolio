@@ -20,7 +20,7 @@ li {
   background-color:black;
   color:white;
   height: 110px;
-  width:10px;
+  width:100%;
 }
 .nav-links a {
 color: #fff;
