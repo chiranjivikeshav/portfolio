@@ -134,6 +134,8 @@ a:hover{
     background-color: #4c9e9e;
   border-radius: 5px;
   transition: 0.3s ease;
+  padding:5px;
+  
 }
 nav{
     width: fit-content;
